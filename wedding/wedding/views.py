@@ -11,13 +11,10 @@ from django.utils import timezone
 # from .forms import *
 from django.core.files.storage import FileSystemStorage
 
-
+logger = logging.getLogger(__name__)
 
 
 def index(request):
-    # with open ('myapp\\templates\index_alternative.html', 'r', encoding='utf-8') as file:
-    #     html = file.read()
-    # return HttpResponse(html)
-    # return render(request, 'index.html')
-    return TemplateResponse(request, 'index.html').render()
+    logger.info('Index page accessed')
+    return TemplateResponse(request, 'layout.html').render()
     
