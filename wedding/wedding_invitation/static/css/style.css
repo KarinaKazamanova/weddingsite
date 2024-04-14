@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Floriselscript";
-    src: url("../font/p22allysonpro.ttf");
+    src: url("../font/GoodVibesCyr.ttf");
 } 
 
 *{
@@ -57,7 +57,7 @@ body {
     font-size: 60px;
     align-items: left;
     justify-content: left;
-    font-weight: 10;
+    font-weight: 600;
     padding-bottom: 200px;
     
 }
