@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Floriselscript";
-    src: url("../font/alexandrazeferinoone.ttf");
+    src: url("../font/ludvigvanbethoveen.ttf");
 } 
 
 *{
@@ -57,6 +57,7 @@ body {
     font-size: 60px;
     align-items: left;
     justify-content: left;
+    font-weight: 10;
     padding-bottom: 200px;
     
 }
