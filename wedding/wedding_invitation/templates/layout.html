@@ -12,19 +12,23 @@
     {% endblock %}</title>
 
  </head>
-
  <body>
-    <section class="invintation">
-            {%load static%}
-            <div class="background">
-            <img class="invitation_background" src="{% static 'img/invitation.jpg'%}" alt="invitation" width='1020'><br>
-            </div>
+    {%load static%}       
+    <header class="top">
+        <p>Приглашение</p>
+    </header>
+    <main class="maintext">
+        <p class="string1">Дорог{{ ending }} {{ name }}, </p>
+        <p class="string2">{% for string in message %} 
+{{ string }}<br>{% endfor %}</p>
+        <p class="string3">P.S.: Пожалуйста, подтвердите Ваше присутствие на нашем празднике до 20 июня 2024 года любым удобным для вас способом.</p>
 
-        <header class="top">
-            <p>Приглашение на свадьбу</p>
-        </header>
 
-        
-    </section>
+    </main>
+    <footer  class="background">
+        <div>
+            <img class="invitation_background" src="{% static 'img/invitation_10.png'%}" alt="invitation" ><br>
+        </div>
+</footer>
+</body>
 
- </body>
