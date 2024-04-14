@@ -10,38 +10,40 @@
 }
 
 body {
+    display: flex;
     position: relative;
     font-style: normal;
     font-weight: 450;
     scroll-behavior: smooth;
     font-family: 'Floriselscript';
     align-items: center;
+    justify-content: center;
+  
    
     
 }
 
 .invitation{
-    position: relative; 
+    position: absolute; 
     
 }
 
 
 
 .invitation_background{
-    /* opacity: 50%; */
+    
     position: absolute;
-    top: 10px;
-    left: 0px;
+    
+    
 }
 .top{
-    display: flex;
+    /* display: flex; */
     position: absolute;
-    font-family: 'MonsieurLaDoulaise-Regular';
-    top: 160px;
-    left: 130px;
+    font-family: 'Floriselscript';
+    
     color: rgb(118, 144, 72);
     font-size: 36px;
-    justify-content: center;
+    /* justify-content: center; */
     
     
 } 
