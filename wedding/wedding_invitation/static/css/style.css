@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Floriselscript";
-    src: url("../font/GoodVibesCyr.ttf");
+    src: url("../font/Lastochka.ttf");
 } 
 
 *{
@@ -57,7 +57,7 @@ body {
     font-size: 60px;
     align-items: left;
     justify-content: left;
-    font-weight: 600;
+    /* font-weight: 600; */
     padding-bottom: 200px;
     
 }
