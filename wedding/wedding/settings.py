@@ -52,7 +52,8 @@ MIDDLEWARE = [
 ]
 
 ROOT_URLCONF = 'wedding.urls'
-
+MEDIA_URL = '/wedding_invitation/'
+MEDIA_ROOT = BASE_DIR / '/wedding_invitation/static/'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
