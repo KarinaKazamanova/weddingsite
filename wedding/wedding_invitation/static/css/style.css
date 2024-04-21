@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Floriselscript";
-    src: url("../font/FRBAmericanCursive-GuidelinesArrowsBlack.otf");
+    src: url("../font/Floriselscript.ttf");
 
 } 
 
@@ -16,7 +16,7 @@ body {
     background-color: rgba(29, 50, 59, 0.125);
     scroll-behavior: smooth;
     font-family: 'Floriselscript';
-    color: rgb(118, 144, 72);
+    color: rgb(27, 35, 52);
     
    
     
@@ -32,7 +32,8 @@ body {
     font-size: 90px;
     justify-content: left;
     padding-top: 80px;
-    padding-left: 40px;    
+    padding-left: 40px; 
+    padding-bottom: 50px;   
 } 
 
 
@@ -55,7 +56,7 @@ body {
 .maintext{
     display: flex;
     flex-direction: column;
-    font-size: 40px;
+    font-size: 42px;
     align-items: left;
     justify-content: left;
     /* font-weight: 600; */
@@ -74,13 +75,15 @@ body {
     
     padding-left: 200px;
     padding-bottom: 100px;
-    min-height: 350px;
+    line-height: 2;
+    min-height: 50px;
   
     
 }
 .string3{
     height: 90px;
-    padding-left: 150pt;
+    padding-left: 150px;
+    line-height: 2;
     
     
     
@@ -111,7 +114,7 @@ body {
 .maintext{
     display: flex;
     flex-direction: column;
-    font-size: 45px;
+    font-size: 30px;
     align-items: left;
     justify-content: left;
     padding-bottom: 300px;
@@ -122,17 +125,19 @@ body {
 .string1{
     
     
-    font-size: 60px;
+    font-size: 40px;
     height: 20px;
     padding-left: 150px;
+    padding-bottom: 55px;
     
     
     
 }
 .string2{
-    height: 20px;
+    
     padding-left: 200px;
     padding-bottom: 100px;
+    min-height: 1050px;
    
    
     
@@ -140,7 +145,7 @@ body {
 .string3{
     height: 20px;
     padding-left: 150px;
-    padding-top: 550px;
+   
    
     
 }
@@ -158,8 +163,8 @@ body {
 }
 
 .invitation_background{
-    
-    max-width: 500px;
+    min-width: 200px;
+    max-width: 450px;
 }
 }
 
@@ -196,7 +201,7 @@ body {
 .maintext{
     display: flex;
     flex-direction: column;
-    font-size: 40px;
+    font-size: 20px;
     align-items: left;
     justify-content: left;
     padding-bottom: 200px;
@@ -205,21 +210,25 @@ body {
 
 }
 .string1{
-    font-size: 40px;
+    font-size: 30px;
     height: 10px;
     padding-left: 50px;
+    padding-bottom: 35px;
+
    
     
 }
 
 .string2{
    
+    padding-left: 50px;
+    min-height: 200px;
 }
 
 .string3{
     height: 10px;
-    
-    padding-top: 20px;
+    padding-left: 50px;
+    padding-top: 0px;
     
     
 }
