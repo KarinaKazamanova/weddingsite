@@ -24,5 +24,21 @@ urlpatterns = [
     path('', index, name='index'),
     path('mother/', mom, name='mother'),
     path('father/', father, name='father'),
+    path('j&a/', julia_and_artem, name='julia and artem'),
+    path('gasan/', gasan, name='gasan'),
+    path('nikita/', nikita, name='nikita'),
+    path('maria/', maria, name='maria'),
+    path('anna/', anna, name='anna'),
+    path('a&i/', alexandr_and_irina, name='alexandr and irina'),
+    path('a&l/', aina_and_latifa, name='aina and latifa'),
+    path('sveta/', sveta, name='sveta'),
+    path('n&o/', nikita_and_olya, name='nikita and olya'),
+    path('tatiana/', tatiana, name='tatiana'),
+    path('egor/', egor, name='egor'),
+    path('tatiana/', tatiana, name='tatiana'),
+    
+    
+    
+    
     
 ]

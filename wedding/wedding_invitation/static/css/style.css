@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Floriselscript";
-    src: url("../font/Floriselscript.ttf");
+    src: url("../font/miamanueva.ttf");
 
 } 
 
@@ -89,6 +89,10 @@ body {
     
   
     
+}
+
+.nav-link {
+    text-decoration:underline;
 }
 
 
